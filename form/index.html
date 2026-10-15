@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formulario</title>
+</head>
+<body>
+    <main>
+        <section id="hero">
+            <div>
+                <p class="fl">FALE COM A GENTE</p>
+                <h2>Vamos conversar sobre sua <br> proxima viagem?</h2>
+                <p class="txt">tem duvidas sobe os destinos da Chapada <br> Diamantina? Envie sua mensagem e entre em contato <br> conosco</p>
+            </div>
+            <div>
+                <form action="" method="get">
+                    <div id="sep">
+                        <div class="edit">
+                            <label for="">Nome completo</label>
+                            <input type="text" name="" id="nomeCompleto" placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="edit">
+                            <label for="" class="date" id="dataNascimento">Data de nascimento</label>
+                            <input type="date" class="date">
+                        </div>
+                    </div>
+                    <label for="">CPF</label>
+                    <input type="text" placeholder="222.222.222.22" id="cpf">
+                    <label for="">E-mail</label>
+                    <input type="email" placeholder="contato@gmail.com" class="email" id="email">
+                    <label for="">Sua mensagem</label>
+                    <textarea rows="6" placeholder="Conte como podemos ajudar..." id="mensagem"></textarea>
+                    <p class="carac">0/500 caracteres</p>
+                    <br><br>
+                    <p>Seus dados serão ultilizados para responder a sua mensagem. informe apenas os dados necessarios para esse contato.</p> <br> <br>
+                    <button id="btnEnviar">Enviar mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
